@@ -1,0 +1,16 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Shark Attacks",
+    "section": "",
+    "text": "The Global Shark Attack File is a record of reported shark incidents from around the world. This site uses that data to explore where attacks have occurred and how they are distributed across years and activities.\nSharks inspire fear, but the risk of being attacked is far smaller than many people expect. Shark attacks are uncommon events, and the record helps place rare incidents in context rather than suggesting that sharks pose an everyday threat.\nUse the Map page to see shark attacks by country and the Trends page to compare fatal and non-fatal attacks across activities with at least 50 reported incidents."
+  },
+  {
+    "objectID": "map.html",
+    "href": "map.html",
+    "title": "Map",
+    "section": "",
+    "text": "Rows: 5094 Columns: 15\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr (14): Case_Number, Date, Type, Country, Area, Location, Activity, Name, ...\ndbl  (1): Year\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.\n\n\n\n\n\n\n\n\n\n\n\nOnly records marked Y or N are included in this comparison.\n\n\n# A tibble: 2 × 2\n  Outcome   Attacks\n  &lt;chr&gt;       &lt;int&gt;\n1 Non-fatal    3763\n2 Fatal         943"
+  }
+]
